@@ -4,5 +4,6 @@ exports = module.exports = {};
 
 /*We are then defining a function called 'AddNumber'. This function is defined to take 2 parameters, a and b. The function is added to the module "exports" to make the function as a public function that can be accessed by other application modules.*/
 exports.AddNumber = function(a, b) {
-  
+  //We are finally making our function return the added value of the parameters.
+  return a + b;
 }
