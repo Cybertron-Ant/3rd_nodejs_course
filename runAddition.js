@@ -6,4 +6,4 @@ var Addition = require('./Addition.js');
 console.log(Addition.AddNumber(1, 2));
 
 
-/*When you run the app.js file, you will get an output of value 3 in the console log. The result is because the AddNumber function in the Addition.js file was called successfully and the returned value of 3 was displayed in the console*/
+/*When you run the runAddition.js file, you will get an output of value 3 in the console log. The result is because the AddNumber function in the Addition.js file was called successfully and the returned value of 3 was displayed in the console*/
