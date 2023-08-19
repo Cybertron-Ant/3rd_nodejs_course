@@ -1,0 +1,2 @@
+/*The	basic	functionality	of the "require"	function	is	that	it	reads	a	JavaScript	file,	executes the file, and then proceeds to	return an object.	Using	this object,	one	can	then	use	the	various functionalities	available	in	the	module called	by the	require	function.	So	in	our	case,	since	we want to use	the	functionality	of http	and	we	are	using	the	require(http)	command.*/
+var http = require('http');
