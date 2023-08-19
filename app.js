@@ -3,3 +3,8 @@ var http = require('http');
 
 /*we	are	creating	a	server	application	which	is	based	on	a	simple function.	This	function	is	called,	whenever	a	request	is	made	to	our	server	application.*/
 http.createServer(function (req, res) {
+  
+  /*When	a	request	is	received,	we	are	asking	our	function	to	return	a	"Hello	World"	response	to the	client.	The	writeHead	function	is	used	to	send	header	data		to	the	client	and	while	the		end function	will	close	the	connection	to	the	client.*/
+  res.writeHead(200, { 'Content-Type': 'text/html' });
+  res.end('Hello World!');
+  })
