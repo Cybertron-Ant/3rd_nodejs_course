@@ -10,3 +10,5 @@ http.createServer(function (req, res) {
   }).listen(8080);
   
 /*We	are	then	using	the	.listen	function	to	make	our	server	application	listen	to	client	requests on	port	no	8080.	You	can	specify	any	available	port	over	here.*/
+
+/*A simple Node.js application consists of creating a server which listens on a particular port.When a request comes to the server, the server automatically sends a 'Hello World' response to the client.*/
