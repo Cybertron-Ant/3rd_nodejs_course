@@ -7,4 +7,6 @@ http.createServer(function (req, res) {
   /*When	a	request	is	received,	we	are	asking	our	function	to	return	a	"Hello	World"	response	to the	client.	The	writeHead	function	is	used	to	send	header	data		to	the	client	and	while	the		end function	will	close	the	connection	to	the	client.*/
   res.writeHead(200, { 'Content-Type': 'text/html' });
   res.end('Hello World!');
-  })
+  }).listen(8080);
+  
+/*We	are	then	using	the	.listen	function	to	make	our	server	application	listen	to	client	requests on	port	no	8080.	You	can	specify	any	available	port	over	here.*/
